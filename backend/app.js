@@ -14,6 +14,7 @@ app.use(cookieParser());
 app.use(express.json());
 const { ValidationError } = require('sequelize');
 
+
 // Security Middleware
 if (!isProduction) {
     // enable cors only in development
